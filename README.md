@@ -85,3 +85,7 @@ En concreto, se han detectado los siguientes microservicios:
 
 Cada microservicio se implementará mediante Flask y los accesos a BBDD se harán mediante ORM, ( con la librería SQLAlchemy).
 Para la autenticación se decide usar tokens JWT
+
+#### Estructura del proyecto.
+
+Aqui falta comentar la estructura de las carpetas bin, src ...
