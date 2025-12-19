@@ -13,10 +13,7 @@ def test():
 
 if __name__ == '__main__':
     # Obtengo la carpeta del fichero de configuracion
-    path = os.path.dirname(os.path.realpath(__file__))
-    #cfg_path = f"{path}/../../configs/microservices.cfg"
-    # He creado un enlace simbólico al cfg centralizado para que pueda leerlo desde la carpeta del microservicio.
-    #cfg_path = f"{path}/config.cfg"
+    #path = os.path.dirname(os.path.realpath(__file__))
     cfg_path = f"config.cfg"
     config = configparser.ConfigParser()
     config.read([cfg_path])

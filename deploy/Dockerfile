@@ -1,0 +1,18 @@
+# Imagen base de Python
+FROM python:3.9-slim
+
+# Directorio de trabajo dentro del Docker.
+WORKDIR /app
+
+# Instalo las dependencias
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copio la aplicación
+COPY  ["autenticacion.py", "config.cfg", "./"]
+
+# Expone el puerto del Docker
+EXPOSE 2203
+
+# Comando para ejecutar la pp.
+CMD ["python", "autenticacion.py"]

@@ -38,17 +38,20 @@ Los casos de uso detectado para este ejercicio són los siguientes:
 
 Usuario Administrador.
 + Crear centro.
++ Consultar centro.
 + Consultar citas de un centro.
 + Eliminar centro. (incluye consultar citas de un centro para validar que el centro eliminado no tiene citas pendientes.)
 + Modificar centro.
 + Listar centros.
 + Crear administrativo.
++ Consultar administrativo.
 + Modificar administrativo.
 + Eliminar administrativo.
 + Listar administrativos por centro.
 
 Usuario Administrativo.
 + Crear paciente.
++ Consultar paciente.
 + Consultar citas de paciente.
 + Modificar paciente.
 + Eliminar paciente. (Incluye consultas citas de paciente para validar que no tenga citas pendientes)
